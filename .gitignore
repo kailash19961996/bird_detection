@@ -1,0 +1,6 @@
+myenv/
+myenv311/
+data/
+__pycache__/
+*.pyc
+.DS_Store
