@@ -47,6 +47,5 @@ def classify_image(frame):
     with torch.no_grad():
         outputs = model(tensor)
         _, predicted = torch.max(outputs, 1)
-    
     # If predicted == 0 => bird, if 1 => not_bird, or vice versa
     return predicted.item()
